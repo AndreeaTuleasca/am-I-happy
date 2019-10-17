@@ -1,0 +1,8 @@
+<div>
+    <p>emotions-today works!</p>
+    <div>
+        <a *ngFor="let emotion of emotions$ | async" [routerLink]="['/emotion-details', emotion.id]">
+            {{ emotion.name }}
+        </a>
+    </div>
+</div>
