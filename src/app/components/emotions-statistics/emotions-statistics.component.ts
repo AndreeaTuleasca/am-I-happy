@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-emotions-statistics',
+  selector: 'emotions-statistics',
   templateUrl: './emotions-statistics.component.html',
   styleUrls: ['./emotions-statistics.component.scss']
 })

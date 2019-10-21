@@ -7,7 +7,7 @@ import { EmotionName } from 'src/app/enums/emotion-name.enum';
 import * as moment from 'moment';
 
 @Component({
-  selector: 'app-emotion-add',
+  selector: 'emotion-add',
   templateUrl: './emotion-add.component.html',
   styleUrls: ['./emotion-add.component.scss']
 })

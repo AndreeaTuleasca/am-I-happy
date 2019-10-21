@@ -5,7 +5,7 @@ import { map } from 'rxjs/operators';
 import { EmotionsService } from 'src/app/services/emotions.service';
 
 @Component({
-  selector: 'app-emotions-today',
+  selector: 'emotions-today',
   templateUrl: './emotions-today.component.html',
   styleUrls: ['./emotions-today.component.scss']
 })

@@ -42,7 +42,7 @@ export class EmotionsService {
     return {
       id: this.emotions.length,
       name: emotionDetails.name.label,
-      color: EmotionColor[emotionDetails.name.value],
+      color: emotionDetails.name.value,
       date: emotionDetails.date,
       time: emotionDetails.time,
       message: emotionDetails.message
@@ -50,7 +50,7 @@ export class EmotionsService {
   }
 
   getEmotionById(id: number): Observable<Emotion> {
-    return of(this.emotions[id - 1]);
+    return of(this.emotions[id]);
   }
 
   getEmotions(): Observable<Array<Emotion>> {

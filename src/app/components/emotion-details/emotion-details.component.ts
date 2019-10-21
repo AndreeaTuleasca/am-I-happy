@@ -5,7 +5,7 @@ import { EmotionsService } from 'src/app/services/emotions.service';
 import { Emotion } from '../../models/emotion';
 
 @Component({
-  selector: 'app-emotion-details',
+  selector: 'emotion-details',
   templateUrl: './emotion-details.component.html',
   styleUrls: ['./emotion-details.component.scss']
 })

@@ -12,6 +12,8 @@ import { AuthenticateComponent } from './components/authenticate/authenticate.co
 import { CreateAccountComponent } from './components/create-account/create-account.component';
 import { SettingsComponent } from './components/settings/settings.component';
 import { EmotionsStatisticsComponent } from './components/emotions-statistics/emotions-statistics.component';
+import { EmotionsMenuComponent } from './components/emotions-menu/emotions-menu.component';
+import { EmotionsNavTitleComponent } from './components/emotions-nav-title/emotions-nav-title.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { EmotionsStatisticsComponent } from './components/emotions-statistics/em
     AuthenticateComponent,
     CreateAccountComponent,
     SettingsComponent,
-    EmotionsStatisticsComponent
+    EmotionsStatisticsComponent,
+    EmotionsMenuComponent,
+    EmotionsNavTitleComponent
   ],
   imports: [
     BrowserModule,

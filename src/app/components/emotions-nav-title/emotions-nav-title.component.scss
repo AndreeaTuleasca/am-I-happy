@@ -1,0 +1,22 @@
+@import "../../variables.scss";
+
+.nav-title-container {
+    display: block;
+    text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+    .nav-title-buttons {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .nav-title-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

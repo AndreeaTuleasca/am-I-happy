@@ -1,0 +1,42 @@
+@import "./variables.scss";
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "title"
+        "side"
+        "main";
+}
+
+.top-nav {
+    grid-area: title;
+}
+
+.menu {
+    grid-area: side;
+}
+
+.content {
+    grid-area: main;
+}
+
+@media (min-width: $tablet-width) {
+    .container {
+        grid-template-areas:
+            "title title title"
+            "side main main"
+            "side main main";
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .container {
+        grid-template-areas:
+            "title title title title title"
+            "side main main main main"
+            "side main main main main";
+    }
+}
+
