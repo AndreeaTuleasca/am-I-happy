@@ -1,4 +1,10 @@
-# Src
+# Am-I-Happy
+
+As a control freak, to answer the question "Are you happy?" takes a thorough analysis of your emotions and their distribution. So, to find out if your're happy, first of all, you need to know how you feel and what's the feeling you experiment mostly. The next step would be to see what actions create certain feelings. In the end, you just might be able to answer the question and maybe even figure out what makes you happy. 
+
+
+Work in progress(mostly ideas).
+Only components emotion-add, emotion-details and emotions-today have some functionality implemented.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
 
